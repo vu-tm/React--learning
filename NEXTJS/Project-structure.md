@@ -2,19 +2,19 @@
 
 <h4> 
   Bản thân nextjs sẽ cung cấp route tự suy diễn theo cấu trúc thư mục:
-<img src="https://github.com/user-attachments/assets/0965effc-6e68-46bb-a194-728e46c3108e" width="60%" />
+  <img width="60%" src="https://github.com/user-attachments/assets/03109660-df4b-4981-bb0d-d144cb805fdb" />
 </h4>
 <h4> 
   Giả sử đây là cấu trúc của website
-<img src="https://github.com/user-attachments/assets/d75c8adf-4d09-4494-9d7c-7de8b73cead7" width="80%" />
+  <img width="80%" src="https://github.com/user-attachments/assets/f3a9670e-a11f-4ef1-b827-05ff27321bf8" />
 </h4>
 <h4> 
   Cấu trúc đường dẫn (URL) của một trang web:
-  <img width="70%" src="https://github.com/user-attachments/assets/1d8c823f-fb56-492e-9ba5-3ae6a025abd5" />
+  <img width="70%" src="https://github.com/user-attachments/assets/6e5e9ef5-dd39-4de0-b94c-99eae0e65bd4" />
 </h4>
 <h4> 
   Vậy thì nextjs sẽ suy diễn dựa trên cấu trúc của URL của 1 trang web và cấu trúc thư mục tương ứng.
-<img width="70%" src="https://github.com/user-attachments/assets/c964e38c-4d11-44fd-94a8-c78c1cb2088f" />
+  <img width="70%" src="https://github.com/user-attachments/assets/8310142c-0277-4014-bcf9-aca54f5b03d3" />
   <br>
   ⌯⌲ [slug] chính xác là thư mục
 </h4>
