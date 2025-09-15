@@ -18,3 +18,24 @@
   <br>
   ⌯⌲ [slug] chính xác là thư mục
 </h4>
+
+<br>
+
+
+Kết hợp với quy tắc đặt tên của nextjs:
+
+# Quy ước Tập tin
+
+Next.js cung cấp một tập hợp các tập tin đặc biệt để tạo giao diện người dùng với các hành vi cụ thể trong các route lồng nhau:
+
+| Tập tin         | Mục đích                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| `layout`        | Giao diện chia sẻ cho một segment và các segment con của nó             |
+| `page`          | Giao diện duy nhất của một route và làm cho route có thể truy cập công khai |
+| `loading`       | Giao diện tải cho một segment và các segment con của nó                 |
+| `not-found`     | Giao diện không tìm thấy cho một segment và các segment con của nó      |
+| `error`         | Giao diện lỗi cho một segment và các segment con của nó                 |
+| `global-error`  | Giao diện lỗi toàn cục                                                  |
+| `route`         | Điểm cuối API phía máy chủ                                              |
+| `template`      | Giao diện Layout được render lại chuyên biệt                           |
+| `default`       | Giao diện dự phòng cho các Route Song song                              |
