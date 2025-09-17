@@ -22,7 +22,7 @@ import {useState} from "react";
 ```jsx
 function App() {
   useState(); // Đúng
-  
+
   function handleClick(ten) {
     useState(); //Sai: không gọi trong hàm
   }
@@ -42,6 +42,12 @@ function App() {
   )
 }
 ```  
+<br><br>
+
+![alt text](useState.png)
+
+
+
 
 
 
