@@ -17,6 +17,34 @@ component cha **gần** với các component đó nhất.
 ```js
 import {useState} from "react";
 ```
+    
+#### ⚠ Khi sử dụng bắt buộc phải gọi tại cấp cao nhất của hàm thành phần
+```jsx
+function App() {
+  useState(); // Đúng
+  
+  function handleClick(ten) {
+    useState(); //Sai: không gọi trong hàm
+  }
+
+  let isOnline = true;
+  if(isOnline) 
+  { 
+    useState(); // Sai: không gọi trong if/else 
+  }
+
+  return (
+    <>
+    useState(); //Sai: không gọi trong hàm jsx
+    <menu></menu>
+    <li></li>
+    </>
+  )
+}
+```  
+
+
+
 
 
 
