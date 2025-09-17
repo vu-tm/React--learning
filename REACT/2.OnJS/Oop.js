@@ -16,8 +16,8 @@ const person = {
 };
 
 //truy cập thuộc tính
-console.log(person.name); // John
-console.log(person["tuổi tác"]); // 30
+console.log(person.name); // John // Truy cập bằng dot notation
+console.log(person["tuổi tác"]); // 30 // Truy cập bằng bracket notation
 
 // Class
 class Person {

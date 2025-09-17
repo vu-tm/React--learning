@@ -45,6 +45,8 @@ function App() {
 <br><br>
 
 ![alt text](useState.png)
+  
+#### Dùng useState để hiển thị dữ liệu thực
 
 
 
