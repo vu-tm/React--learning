@@ -1,7 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './Button/App.jsx'
+// import App from './App.jsx'
+
+import AppBT1 from './BAITAP1/AppBT1.jsx'
+// import AppBtn from './Button/AppBtn.jsx'
 // import AppComponent from './AppComponent-test.jsx'
 // import AppProp from './AppProp-test.jsx'
 
@@ -9,6 +12,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <AppComponent /> */}
     {/* <AppProp /> */}
-    <App />
+    {/* <AppBtn /> */}
+    <AppBT1 />
+
+    {/* <App /> */}
   </StrictMode>,
 )
