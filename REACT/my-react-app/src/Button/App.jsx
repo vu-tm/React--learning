@@ -1,11 +1,14 @@
+import { use, useState } from 'react';
 import '../App.css'
 import TabButton from './TabButton.jsx';
 
 
 function App() {
+  const [selectBtn, setSelectBtn] = useState("Click button"); //useState
 
   function handleClick(ten) {
-    alert(`You clicked ${ten}!`);
+    // alert(`You clicked ${ten}!`);
+    setSelectBtn(ten);
   }
   return (
     <>
@@ -19,6 +22,7 @@ function App() {
         <TabButton tenBatKy={() => { handleClick('About') }}>About</TabButton>
         <TabButton tenBatKy={() => { handleClick('contact') }}>Contact</TabButton>
       </menu>
+      {selectBtn}  {/* Hiển thị giá trị state */}
     </>
   )
 }
