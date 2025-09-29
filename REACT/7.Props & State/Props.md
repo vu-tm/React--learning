@@ -1,6 +1,7 @@
 # PROPS
 - Là các tham số được truyền từ component cha xuống component con để hiển thị dữ liệu hoặc cấu hình component con.  
-- Props là dữ liệu bất biến, nghĩa là chúng không thể được thay đổi bởi component nhận props.  
+- Props là dữ liệu bất biến, nghĩa là chúng không thể được thay đổi bởi component nhận props.    
+-> Khi thực hiện truyền dữ liệu qua props, dữ liệu trong component con chỉ được đọc, không thể thay đổi  
 
 | Đặc điểm          | **State** | **Props** |
 |-------------------|-----------|-----------|
@@ -14,3 +15,8 @@
 | **Ảnh hưởng đến UI** | Khi state thay đổi, UI của component sẽ render lại | Khi props thay đổi, component con sẽ render lại theo dữ liệu mới |
 | **Cách truy cập** | Trong function component qua useState, class component qua this.state | Qua props của function component hoặc this.props trong class component |
 | **Tương tác component** | Không thể truyền trực tiếp (phải qua props hoặc context) | Có thể truyền từ component cha xuống nhiều component con |
+
+
+# Tóm lại
+- State của một component là dữ liệu mà chỉ có component đó sử dụng và quản lý.   
+- Props là cách để truyền dữ liệu từ component cha xuống component con và chỉ component cha mới có thể thay đổi giá trị được.   
