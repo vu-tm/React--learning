@@ -11,8 +11,8 @@
   
 💡 ABC render <DCM /> -> nên ABC sẽ là **cha**, DCM sẽ là **con**
 
-**Minh hoạ mối quan hệ**
 --
+**Minh hoạ mối quan hệ**
 TodoApp (cha)
  ├─ state: { todos: [...] }
  └─ <Todos todos={this.state.todos} />  ← truyền props xuống con
