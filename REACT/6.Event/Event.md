@@ -74,3 +74,5 @@ function TodoItem(props) {
   );
 }
 ```
+
+#### ⚠ onClick = {clickHandle} . Không phải onClick = {clickHandle()}
